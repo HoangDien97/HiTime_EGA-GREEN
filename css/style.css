@@ -750,7 +750,7 @@ a.link_f:hover {
     background: #e9ecef;
     width: 1903px;
     height: 48px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     margin-top: -24px;
     margin-left: -290px;
 }
@@ -788,6 +788,10 @@ img.img_item_2 {
 /* .img_item_slider {
         border: 1px solid red;
     } */
+
+#detail_product {
+    margin-bottom: 20px;
+}
 
 #detail_product .img_item_slider a img {
     width: 75px;
@@ -1024,9 +1028,17 @@ img.img_item_2 {
     height: 32px;
 }
 
+#description_product {
+    margin-bottom: 20px;
+}
+
 #description_product .title h2 {
     font-weight: 500;
     font-size: 26px;
+}
+
+#similar_product {
+    padding-bottom: 20px;
 }
 
 #similar_product .similar_product_title h2 {
@@ -1048,7 +1060,10 @@ img.img_item_2 {
     margin-bottom: 20px;
 }
 
+.bg_white {
+    background: #fff;
+}
 
-/* #wp2 {
-    background: red;
-} */
+#wp-content {
+    background: #f8f8f8;
+}
