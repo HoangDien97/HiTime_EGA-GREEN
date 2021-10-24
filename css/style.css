@@ -752,12 +752,17 @@ a.link_f:hover {
     height: 48px;
     margin-bottom: 20px;
     margin-top: -24px;
+    margin-left: -290px;
 }
 
 .breadcrumb-item a {
     color: #999;
     font-weight: 300;
     font-size: 14px;
+}
+
+.breadcrumb-item .active {
+    color: #3a445e;
 }
 
 img.img_item_1 {
@@ -913,7 +918,48 @@ img.img_item_2 {
     display: flex;
 }
 
-#detail_product .form_button_details .form-control {
+
+/* qty_Count  */
+
+#detail_product .form_button_details .custom.input_number_product .upqty {
+    width: 34px;
+    padding: 4px 6px;
+    border-radius: 4px;
+    margin-right: 0px;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: center;
+    -webkit-appearance: none;
+    border: 1px solid #dadada;
+    float: left;
+    border-radius: 0px 5px 5px 0px;
+    border-left: none;
+}
+
+#detail_product .form_button_details .custom.input_number_product input#qty {
+    width: 80px;
+    text-align: center;
+    /* border-radius: 4px; */
+    border: 1px solid #dadada;
+}
+
+#detail_product .form_button_details .custom.input_number_product .downqty {
+    width: 34px;
+    padding: 4px 6px;
+    border-radius: 4px;
+    margin-right: 0px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #dadada;
+    float: left;
+    border-radius: 5px 0px 0px 5px;
+    border-right: none;
+}
+
+
+/* #detail_product .form_button_details .form-control {
     max-width: 65px;
     max-height: 30px;
     text-align: center;
@@ -934,7 +980,7 @@ img.img_item_2 {
     max-height: 30px;
     border: 1px solid #ced4da;
     border-left: none;
-}
+} */
 
 #detail_product .button_actions .btn_base {
     height: 44px;
@@ -982,3 +1028,27 @@ img.img_item_2 {
     font-weight: 500;
     font-size: 26px;
 }
+
+#similar_product .similar_product_title h2 {
+    font-size: 1.6em;
+    margin: 0px;
+    line-height: 1.2;
+}
+
+#similar_product .similar_product_title h2 a {
+    color: #3a445e;
+}
+
+#similar_product .similar_product_title h2 a:hover {
+    color: #008848;
+}
+
+#similar_product .item_product_main .product-info {
+    margin-top: -12px;
+    margin-bottom: 20px;
+}
+
+
+/* #wp2 {
+    background: red;
+} */

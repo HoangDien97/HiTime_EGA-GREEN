@@ -174,7 +174,7 @@
                                     <a class="text-decoration-none" href="">Categor</a>
                                 </li>
                                 <li class="breadcrumb-item">
-                                    <a class="text-decoration-none" href="">Hộp bánh Tết</a>
+                                    <a class="text-decoration-none active" href="">Hộp bánh Tết</a>
                                 </li>
                             </ol>
                         </nav>
@@ -289,10 +289,18 @@
                                         <div class="form_product_content type1">
                                             <div class="count"><label>Số lượng:</label></div>
                                             <div class="custom input_number_product custom-btn-number mb-3">
-                                                <button class="btn btn_num num_1 button button_sub">-</button>
+                                                <!-- <button class="btn btn_num num_1 button button_sub">-</button>
                                                 <input type="text" value="1" maxlength="3" size="3" class="form-control prd_quantity ">
-                                                <button class="btn btn_num num_2 button button_add">+</button>
+                                                <button class="btn btn_num num_2 button button_add">+</button> -->
+
+
+                                                <div class="downqty">–</div>
+                                                <input id="qty" name="quantity" type="text" class="soluong" value="1">
+                                                <div class="upqty">+</div>
+
                                             </div>
+
+
                                         </div>
                                     </div>
                                     <div class="button_actions clearfix">
@@ -420,11 +428,13 @@
             </div>
         </div>
 
-        <div class="similar_product">
+        <div id="similar_product">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="similar_product_title">Sản phẩm cùng loại</div>
+                        <div class="similar_product_title">
+                            <h2> <a href="" class="text-decoration-none">Sản phẩm cùng loại</a> </h2>
+                        </div>
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="item_product_main">
