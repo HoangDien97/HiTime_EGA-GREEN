@@ -756,28 +756,30 @@ a.link_f:hover {
     padding-left: 235px;
 }
 
-
-/* ol.breadcrumb {
-    margin-left: -26px;
-} */
-
-.breadcrumb-item a {
+#breadcrumb .breadcrumb-item a {
     color: #999;
     font-weight: 300;
     font-size: 14px;
 }
 
-.breadcrumb-item .active {
+#breadcrumb .breadcrumb-item .active {
     color: #3a445e;
 }
 
-img.img_item_1 {
+
+/* wp-content  ------------------- */
+
+#wp-content {
+    background: #f8f8f8;
+}
+
+#detail_product img.img_item_1 {
     width: 450px;
     height: 450px;
     z-index: 1;
 }
 
-img.img_item_2 {
+#detail_product img.img_item_2 {
     width: 355px;
     height: 355px;
     position: absolute;
@@ -786,14 +788,9 @@ img.img_item_2 {
     z-index: -1
 }
 
-.product_img_item {
+#detail_product .product_img_item {
     position: relative;
 }
-
-
-/* .img_item_slider {
-        border: 1px solid red;
-    } */
 
 #detail_product {
     margin-bottom: 20px;
@@ -969,30 +966,6 @@ img.img_item_2 {
     border-radius: 5px 0px 0px 5px;
     border-right: none;
 }
-
-
-/* #detail_product .form_button_details .form-control {
-    max-width: 65px;
-    max-height: 30px;
-    text-align: center;
-    border-radius: 0;
-}
-
-#detail_product .form_button_details .button_sub {
-    max-width: 30px;
-    max-height: 30px;
-    border: 1px solid #ced4da;
-    border-radius: 5px 0px 0px 5px;
-    border-right: none;
-}
-
-#detail_product .form_button_details .button_add {
-    border-radius: 0px 5px 5px 0px;
-    max-width: 30px;
-    max-height: 30px;
-    border: 1px solid #ced4da;
-    border-left: none;
-} */
 
 #detail_product .button_actions .btn_base {
     height: 44px;
