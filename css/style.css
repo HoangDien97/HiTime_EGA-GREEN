@@ -211,9 +211,15 @@ a.link {
 
 /* ----------------end_sub_menu */
 
+
+/* Slider--------------- */
+
 #slider #slider_1 img {
     width: 1140px;
 }
+
+
+/* Category-------------------- */
 
 #category .item {
     padding: 10px 10px;
@@ -259,10 +265,16 @@ a.link {
     color: #008848;
 }
 
+
+/* Banner_adv--------------- */
+
 .slider_1 a img {
     max-width: 1140px;
     min-height: 401px;
 }
+
+
+/* Product---------- */
 
 #product-slider .container.card {
     border: none;
@@ -387,8 +399,6 @@ a.link:hover {
     position: absolute;
     top: 50%;
     left: 50%;
-    /* top: 20%; */
-    /* left: 8%; */
     transform: translate(-50%, -50%) scale(var(--image-scale));
     object-fit: contain;
     max-width: 204px;
@@ -464,7 +474,6 @@ a.link:hover {
 
 .item_product_main .product-info {
     text-align: center;
-    /* margin-top: -10px; */
     margin-top: 6px;
 }
 
@@ -668,7 +677,7 @@ a.link:hover {
 }
 
 
-/* footer  */
+/* Footer----------------  */
 
 #footer {
     background: #fff;
